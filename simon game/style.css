@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    text-align: center;
+    background-color: darkblue;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    color: yellow;
+    font-size: 48px;
+    margin: 50px;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    margin: 25px;
+    display: inline-block;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.pressed{
+    box-shadow: 0 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over{
+    background-color: red;
+    opacity: 0.7;
+}
